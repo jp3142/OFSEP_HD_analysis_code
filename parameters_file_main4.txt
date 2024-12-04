@@ -1,0 +1,41 @@
+# PARAMETERS FOR MAIN_4_SUMMARY_TABLE
+# Syntax: "parameter_name value", space delimited file
+######################################################
+
+# prefix of plink fileset with all individuals in OFSEP-HD
+all_indiv_prefix data_for_main4_for_julien/2023-05-11_Axiome_QC_MM_2_cases_bestOnly_rmindiv_pretreatmentStep0Step1Step2
+
+# .sexcheck file containing F statistics
+fstat_file data_for_main4_for_julien/4_imputed_sex.sexcheck
+
+# .het file containing heterozygosity rate for each individuals 
+het_file data_for_main4_for_julien/10_pruned_dataset.het
+
+# .genome file containing relatedness informations
+relatedness_file data_for_main4_for_julien/11_pihat_min0.2.genome
+
+# .evec smartpca output file containing eigenvectors for each individual
+eigenvec_file data_for_main4_for_julien/smartpca.evec
+
+# .3.Q file from admixed ancestry analysis
+admixed_proportion_file data_for_main4_for_julien/merged_pruned_dataset_removedInd_removedFreqDiffSnps0_fam_labelled.1_noATGC_only_indiv_to_keep.3
+
+# prefix of plink fileset after TopMED SNP imputation
+after_imputation_dataset_prefix data_for_main4_for_julien/OFSEP_HD_maf0.01_r20.5_postImputation_main2_preprocessed_indivs_for_julien_rmdup_dose_qc_all_snps_updated_dup_2024_07_10oct_CheckRef_setChrPosAltRefId_Converted_MSsnpsRsids
+
+# csv file containing hg19 variant names, hg38 variant names and A1 and A2 alleles for each variant
+variants_allele_or_list_file data_for_main4_for_julien/233_MS_variants_alleles_or_rsid_no_dup.csv
+
+# list of individuals kept after QC or for analysis en frequencies
+list_indiv_kept data_for_main4_for_julien/indivs_to_keep_for_freq_analysis_corrected.txt
+
+ind_to_keep_for_frequency_analysis data_for_main4_for_julien/indivs_to_keep_for_freq_analysis_corrected.txt
+
+# labelled clusters ancestry file with cluster name for each individual
+labelled_clusters_ancestry data_for_main4_for_julien/labelled_clusters_case_ctrl.csv
+
+# variant_or_freq_csvfile containing columns variant_id;OR;freq(for variant not in dataset)
+variant_or_freq_file data_for_main4_for_julien/MS_variants_rsid_or_freq_sorted_no_dup.csv
+
+# list of hla variants to not use for PRS computation
+variants_hla_to_remove data_for_main4_for_julien/list_snp_HLA.txt
