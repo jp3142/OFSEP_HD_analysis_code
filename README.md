@@ -1,19 +1,5 @@
 # HOW TO USE THE ANCESTRY ANALYSIS PIPELINE ?
 
-#############################
-
-Personal notes:
-
-WARNING: OFSEP-HD initial data -> HG37
-
-WARNING: Control data imputed HG38
-
-WARNING: reference data -> hg38
-
-WARNING reference north-african -> hg37 lifted to hg38
-
-#############################
-
 **Author's note:**
 
 This ancestry analysis pipeline was designed by Julien Paris, phD student in Nantes Université, CR2TI, France, under the responsability of Nicolas Vince, researcher at CR2TI, and Pierre-Antoine Gourraud, PU-PH at Nantes University, CR2TI.
